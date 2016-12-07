@@ -2,6 +2,14 @@
 <html>
   <head>
     <script src="js/javascript-variable-exercises.js"></script>
+    <style>
+
+      #output {
+        width: 300px;
+        height: 600px;
+      }
+
+    </style>
   </head>
   <body>
     <ul>
@@ -24,6 +32,8 @@
         var laterYear = "2040";
         var myAge = laterYear - yearOfbirth;
         console.log("yuck ill be old, ill be " + myAge + ' or ' + (myAge - 1));
+        document.getElementById('output').innerHTML = output;
+
 
     </script>
   </body>
