@@ -20,6 +20,14 @@
       // Call the addOutput function with your output value
       // when you are ready.
       // Example: addOutput(outputValue);
+      var myAge = "23";
+      var maxAge = "89";
+      var year = "365";
+      var amountPerDay = "9.85";
+      var amountPerYear = amountPerDay * year;
+      var totalSpent = amountPerYear * (maxAge - myAge);
+      console.log(" it will cost me " + totalSpent + " dollars in order to have two redbulls a day until i am  " +  maxAge + "!");
+      document.getElementById("output").innerHTML = " it will cost me " + totalSpent + " dollars in order to have two redbulls a day until i am  " +  maxAge + "!";
     </script>
   </body>
 </html>
